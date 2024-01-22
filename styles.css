@@ -46,11 +46,7 @@ header {
 aside {
     float: left;
     display: flex;
-
-}
-
-main {
-    margin-left: 150px;
+    width: 150px;
 }
 
 li {
@@ -62,11 +58,9 @@ li {
 a:link {
     color: teal;
     text-decoration: none;
+    white-space: nowrap;
 }
 
-a:visited {
-    color: teal;
-}
 
 footer {
     background-color: teal;
@@ -77,8 +71,28 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     aside {
-        display: block;
+        float: none;
+    }
+    
+    nav {
+        margin-top: 1rem;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+
+    #about {
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: grey;
+    }
+
+    main {
+        margin-left: 0;
     }
 }
