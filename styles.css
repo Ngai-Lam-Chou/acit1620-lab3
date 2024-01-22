@@ -28,15 +28,50 @@ form button {
     margin-left: auto;
 }
 
-header{
+header {
     background-color: teal;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .img {
-    width: 200px;
-    height: 150px;
+    float: left;
+    height: 100px;
+    width: 150px;
+
+}
+
+aside {
+    float: left;
+    display: flex;
+}
+
+main {
+    margin-left: 150px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+}
+
+a:link {
+    color: teal;
+    text-decoration: none;
+}
+
+a:visited {
+    color: teal;
+}
+
+footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
