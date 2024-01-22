@@ -40,12 +40,13 @@ header {
     float: left;
     height: 100px;
     width: 150px;
-
+    margin-right: 1rem;
 }
 
 aside {
     float: left;
     display: flex;
+
 }
 
 main {
@@ -74,4 +75,10 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    aside {
+        display: block;
+    }
 }
