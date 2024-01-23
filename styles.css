@@ -97,5 +97,8 @@ main {
     li:not(:last-child) {
         border-right: 1px solid #888;
     }
-    
+
+    main {
+        margin-left: 0;
+    }
 }
