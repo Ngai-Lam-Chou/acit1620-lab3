@@ -78,21 +78,20 @@ footer {
     
     nav {
         margin-top: 1rem;
+        margin-left: 1rem;
     }
     
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        padding: 0px;
+    ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
     }
 
-    #about {
-        border-left: 1px solid;
-        border-right: 1px solid;
-        border-color: grey;
+    li:not(:last-child) {
+        border-right: 1px solid #888;
     }
-
-    main {
-        margin-left: 0;
-    }
+    
 }
