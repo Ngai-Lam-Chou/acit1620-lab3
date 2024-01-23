@@ -71,6 +71,10 @@ footer {
     width: 100%;
 }
 
+main {
+    margin-left: 150px;
+}
+
 @media (max-width: 600px) {
     aside {
         float: none;
